@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ReactNativeWebApp/static/js/main.102d8299.js",
+    "main.js": "/ReactNativeWebApp/static/js/main.8a77364d.js",
     "index.html": "/ReactNativeWebApp/index.html",
-    "main.102d8299.js.map": "/ReactNativeWebApp/static/js/main.102d8299.js.map"
+    "main.8a77364d.js.map": "/ReactNativeWebApp/static/js/main.8a77364d.js.map"
   },
   "entrypoints": [
-    "static/js/main.102d8299.js"
+    "static/js/main.8a77364d.js"
   ]
 }
