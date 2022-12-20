@@ -32,9 +32,9 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Hello PepsiCo!</Text>
             </View>
-            <View style={styles.sectionContainer}>
+            {/* <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Welcome DPS world</Text>
-            </View>
+            </View> */}
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionDescription}>
                 This application will work in mobile and web at once
