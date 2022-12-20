@@ -2,15 +2,20 @@
   "name": "ReactNativeWebApp",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://harishkotagiri.github.io/ReactNativeWebApp",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "react-scripts start",
+    "build": "react-scripts build",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "18.1.0",
     "react-dom": "^18.2.0",
     "react-native": "0.70.6",
