@@ -15,10 +15,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "code-push-cli": "^3.0.0",
     "gh-pages": "^4.0.0",
     "react": "18.1.0",
     "react-dom": "^18.2.0",
     "react-native": "0.70.6",
+    "react-native-code-push": "^7.0.5",
     "react-native-web": "^0.18.10"
   },
   "devDependencies": {

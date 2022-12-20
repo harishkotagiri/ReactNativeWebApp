@@ -7,8 +7,15 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import codePush from 'react-native-code-push';
 
-const App: () => React$Node = () => {
+let App: () => React$Node = () => {
+  let codePushOptions = {
+    checkFrequency: codePush.CheckFrequency.ON_APP_RESUME,
+    installMode: codePush.InstallMode.ON_NEXT_RESUME,
+  };
+  App = codePush(codePushOptions)(App);
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
