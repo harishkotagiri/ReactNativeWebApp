@@ -29,9 +29,9 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
             </View> */}
-            {/* <View style={styles.sectionContainer}>
+            <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Hello PepsiCo!</Text>
-            </View> */}
+            </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Welcome DPS world</Text>
             </View>
