@@ -33,7 +33,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>Hello PepsiCo!</Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Welcome DPS world!</Text>
+              <Text style={styles.sectionTitle}>Welcome DPS world</Text>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionDescription}>
